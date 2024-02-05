@@ -285,8 +285,9 @@ public class GasolineraTest
 
         double galonesVendidos = g2.getSurtidor( 1 ).getGalonesVendidos( CORRIENTE );
         double galonesEsperados = precioPagado / ( double )VALOR_CORRIENTE;
+        System.out.println(galonesVendidos);
         assertEquals( galonesEsperados, galonesVendidos, 0.01, "La cantidad de galones vendidos en el surtidor no es correcta" );
-
+        System.out.println(galonesEsperados);
         double galonesDisponibles = g2.getTipoGasolina( CORRIENTE ).getCantidadDisponible( );
         assertEquals( CANTIDAD_CORRIENTE - galonesDisponibles, galonesVendidos, 0.01, "El inventario del tipo de gasolina no se actualizó correctamente" );
     }

@@ -1,0 +1,13 @@
+tipo:ACPM:10000:19995.0
+tipo:Extra:20000:8000.0
+tipo:Corriente:15000:15000.0
+tipo:Gas:8000:5000.0
+surtidor:Emilio:ACPM:0.0:Extra:0.0:Corriente:0.0:Gas:0.0
+surtidor:Emilio:ACPM:0.0:Extra:0.0:Corriente:0.0:Gas:0.0
+surtidor:Juanchito:ACPM:5.0:Extra:0.0:Corriente:0.0:Gas:0.0
+surtidor:Juan Pablo:ACPM:0.0:Extra:0.0:Corriente:0.0:Gas:0.0
+empleado:Juanchito:50000
+empleado:Ana:0
+empleado:Juan Pablo:0
+empleado:Emilio:0
+empleado:Julian:0
